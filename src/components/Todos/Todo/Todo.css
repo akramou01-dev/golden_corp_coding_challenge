@@ -1,0 +1,14 @@
+.Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 50px;
+}
+
+.Item:hover{
+    background-color: lightgrey;
+}
+
+.Item button,p,input{
+    margin-left: 5rem;
+}
