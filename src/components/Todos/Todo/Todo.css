@@ -2,13 +2,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px 50px;
+  align-self: center;
+  margin: 5px 0;
+
 }
 
-.Item:hover{
-    background-color: lightgrey;
+.Item:hover {
+  background-color: rgb(0, 0, 0, 0.1);
 }
 
-.Item button,p,input{
-    margin-left: 5rem;
+.Item button {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 25%;
+  background-color: #ccc;
+  color: black;
+}
+.Item button:hover {
+  background-color: #b91717;
+  color: #ccc;
+}
+
+.Label {
+  padding: 10px;
+  font-weight: bold;
+  width: 200px;
 }

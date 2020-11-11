@@ -1,18 +1,27 @@
 .Pagination {
-  width: 100%;
-  flex-flow: column;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin: auto;
-  padding: 10px 0;
+  margin: 5px 0;
+  bottom: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .Pagination button {
   border: 1px solid #ccc;
   background-color: #fff;
   font-size: 1rem;
-  width: 70;
+  cursor: pointer;
+  margin-left: 10px;
 }
-
-.Pagination button:hover,
-.Pagination button:active {
-  background-color: #c0c0c0;
+.Pagination button:disabled {
+  background-color: #927e64;
+  border: 1px solid #7e7365;
+  color: #ccc;
+  cursor: default;
+}
+.Pagination button:hover:disabled {
+  background-color: #AC9980;
+  color: #ccc;
+  cursor: not-allowed;
 }

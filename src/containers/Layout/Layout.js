@@ -6,7 +6,6 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
-        <div>Toolbar</div>
         <main className={classes.Content}>{this.props.children} </main>
       </Aux>
     );
